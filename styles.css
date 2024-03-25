@@ -1,0 +1,112 @@
+:root{
+    --cor-nav: #e4e4db;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+body{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+nav{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+
+nav a {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 18px;
+    background-color: var(--cor-nav);
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background-image: linear-gradient(rgb(198, 3, 3), rgb(77, 0, 0));
+    font-size:30px;
+    transition: all ease-in-out 0.5s;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#espaço_cima{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#select_personalizado select{
+    background-image: linear-gradient(red,darkred);
+    color: gold;
+    border-radius: 20px;
+}
+#select_personalizado {
+    color: darkred;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+
+#botao_compra button{
+    background-image: linear-gradient(red,darkred); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#botao_compra button:hover{
+    background-image: linear-gradient(rgb(198, 3, 3), rgb(77, 0, 0)); /* Green */
+    font-size:20px;
+    transition: all ease-in-out 0.5s;
+}
+
+#botao_compra{
+    margin-bottom: 25px;
+}
+
+footer{
+    background-image: linear-gradient( red, darkred);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    color: #fff;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}

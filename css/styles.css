@@ -1,3 +1,7 @@
+:root{
+    --cor-nav: #e4e4db;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,114 +9,61 @@
     font-family:'Times New Roman', Times, serif;
     
 }
-#menu nav{background-image: linear-gradient( red, darkred);
-justify-content: center;
-align-items: center;
-display: flex;
-box-shadow: 3px 3px 1px 0px #00000060;
+
+body{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+nav{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 3px 3px 1px 0px #00000060;
 }
 
-#menu nav a {
+
+nav a {
     position: relative;
     display: inline-block;
     color: #fff;
     font-size: 25px;
     text-decoration: none;
     padding: 18px;
-    background-image: linear-gradient(rgb(red),rgb(darkred));
+    background-color: var(--cor-nav);
     transition: 0.5s;
 }
 
-#menu nav a:hover{
-background-image: linear-gradient(rgb(198, 3, 3), rgb(77, 0, 0));
-font-size:30px;
-transition: all ease-in-out 0.5s;
+nav a:hover{
+    background-image: linear-gradient(rgb(198, 3, 3), rgb(77, 0, 0));
+    font-size:30px;
+    transition: all ease-in-out 0.5s;
 }
 
-body{
-    justify-content: center;
-     background-color: rgb(238, 235, 235);
- }
-footer{background-image: linear-gradient( red, darkred);
-    align-items: center;
-    box-shadow: 3px 3px 1px 0px #00000060;
-    color: #fff;
-    bottom: 0%;
-    margin-bottom: 0;
-    width: 100%;
+
+h1{
     text-align: center;
-   
-    
-    }
+    margin-top: 15px;
+    margin-bottom: 15px;
 
-    h1{
-        text-align: center;
-    }
+}
 
-    #card{
-        text-align: center;
-        border-radius: 4px;
-        width: 400px;
-        transition: 1s;
-        background-color: #ffffff;
-        font-size: larger;
-        margin-bottom: 30px;
-        display: inline-block;
-        margin-left: 40px;
-        cursor: pointer;
-    }
-    
-    #card h2{
-        font-size: 20px;
-    }
-    
-    #card h3{
-        font-size: 16px;
-        margin-bottom: 2.5px;
-    }
-    
-    #card h4{
-        font-size: 15px;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-align: justify;
-        font-weight: lighter;
-        margin-bottom: 4px;
-    }
-    
-    
-    #card img{
-        width: 200px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    
-    }
-    #pequeno_icone img{
-        width:60px
-    }
-    
-    #card:hover{
-        transition: 1s;
-        background-color: darkred;
-        color: #fff;
-        box-shadow: 0 6px 8px 0 red, 0 8px 12px 0 darkred;
-        
-    }
-    
-    #card:hover h2 {
-        transition: 1s;
-        color: gold;
-    }
-    #card:hover h3 {
-        transition: 1s;
-        color: gold;
-    }
-    #card:hover strong {
-        transition: 1s;
-        color: gold;
-    }
 
-    
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#espaço_cima{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 #select_personalizado select{
     background-image: linear-gradient(red,darkred);
     color: gold;
@@ -127,16 +78,16 @@ footer{background-image: linear-gradient( red, darkred);
 
 
 #botao_compra button{
-background-image: linear-gradient(red,darkred); /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 20px;
-  transition: 0.5s;
+    background-image: linear-gradient(red,darkred); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: 0.5s;
 }
 
 #botao_compra button:hover{
@@ -147,6 +98,16 @@ background-image: linear-gradient(red,darkred); /* Green */
 
 #botao_compra{
     margin-bottom: 25px;
-    
 }
 
+footer{
+    background-image: linear-gradient( red, darkred);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    color: #fff;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+corinthians

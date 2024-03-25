@@ -5,7 +5,7 @@
     font-family:'Times New Roman', Times, serif;
     
 }
-header{background-image: linear-gradient( red, darkred);
+nav{background-image: linear-gradient( red, darkred);
 justify-content: center;
 align-items: center;
 display: flex;
@@ -20,7 +20,7 @@ body{
 }
 
 
-header a {
+nav a {
     position: relative;
     display: inline-block;
     color: #fff;
@@ -31,7 +31,7 @@ header a {
     transition: 0.5s;
 }
 
-header a:hover{
+nav a:hover{
 background-image: linear-gradient(rgb(198, 3, 3), rgb(77, 0, 0));
 font-size:30px;
 transition: all ease-in-out 0.5s;

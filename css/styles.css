@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+#menu nav{background-image: linear-gradient( red, darkred);
+justify-content: center;
+align-items: center;
+display: flex;
+box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+#menu nav a {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 18px;
+    background-image: linear-gradient(rgb(red),rgb(darkred));
+    transition: 0.5s;
+}
+
+#menu nav a:hover{
+background-image: linear-gradient(rgb(198, 3, 3), rgb(77, 0, 0));
+font-size:30px;
+transition: all ease-in-out 0.5s;
+}
+
+body{
+    justify-content: center;
+     background-color: rgb(238, 235, 235);
+ }
+footer{background-image: linear-gradient( red, darkred);
+    align-items: center;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    color: #fff;
+    bottom: 0%;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+   
+    
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    #card{
+        text-align: center;
+        border-radius: 4px;
+        width: 400px;
+        transition: 1s;
+        background-color: #ffffff;
+        font-size: larger;
+        margin-bottom: 30px;
+        display: inline-block;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    
+    #card h2{
+        font-size: 20px;
+    }
+    
+    #card h3{
+        font-size: 16px;
+        margin-bottom: 2.5px;
+    }
+    
+    #card h4{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
+        font-weight: lighter;
+        margin-bottom: 4px;
+    }
+    
+    
+    #card img{
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    
+    }
+    #pequeno_icone img{
+        width:60px
+    }
+    
+    #card:hover{
+        transition: 1s;
+        background-color: darkred;
+        color: #fff;
+        box-shadow: 0 6px 8px 0 red, 0 8px 12px 0 darkred;
+        
+    }
+    
+    #card:hover h2 {
+        transition: 1s;
+        color: gold;
+    }
+    #card:hover h3 {
+        transition: 1s;
+        color: gold;
+    }
+    #card:hover strong {
+        transition: 1s;
+        color: gold;
+    }
+
+    
+#select_personalizado select{
+    background-image: linear-gradient(red,darkred);
+    color: gold;
+    border-radius: 20px;
+}
+#select_personalizado {
+    color: darkred;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+
+#botao_compra button{
+background-image: linear-gradient(red,darkred); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+#botao_compra button:hover{
+    background-image: linear-gradient(rgb(198, 3, 3), rgb(77, 0, 0)); /* Green */
+    font-size:20px;
+    transition: all ease-in-out 0.5s;
+}
+
+#botao_compra{
+    margin-bottom: 25px;
+}
+

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+header{background-image: linear-gradient( red, darkred);
+justify-content: center;
+align-items: center;
+display: flex;
+box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+body{
+   justify-content: center;
+   text-align: center;
+    align-items: center;
+    background-color: rgb(238, 235, 235);
+}
+
+
+header a {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 18px;
+    background-image: linear-gradient(rgb(red),rgb(darkred));
+    transition: 0.5s;
+}
+
+header a:hover{
+background-image: linear-gradient(rgb(198, 3, 3), rgb(77, 0, 0));
+font-size:30px;
+transition: all ease-in-out 0.5s;
+}
+
+footer{background-image: linear-gradient( red, darkred);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    color: #fff;
+   position: fixed;
+    bottom: 0%;
+    width: 100%;
+   
+    
+    }
+
+
+ fieldset{
+    text-align: center;
+    border-radius: 4px;
+    width: 1020px;
+    transition: 1s;
+    background-color: #ffffff;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+fieldset:hover{
+    width: 1040px;
+    transition: 1s;
+    background-color: darkred;
+    color: #fff;
+    box-shadow: 0 6px 8px 0 red, 0 8px 12px 0 darkred;
+    
+}
+
+fieldset:hover h2{
+    transition: 1s;
+    color: gold;
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#espaço_cima{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#select_personalizado select{
+    background-image: linear-gradient(red,darkred);
+    color: gold;
+    border-radius: 20px;
+}
+#select_personalizado {
+    color: darkred;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+
+#botao_compra button{
+background-image: linear-gradient(red,darkred); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+#botao_compra button:hover{
+    background-image: linear-gradient(rgb(198, 3, 3), rgb(77, 0, 0)); /* Green */
+    font-size:20px;
+    transition: all ease-in-out 0.5s;
+}
+
+#botao_compra{
+    margin-bottom: 25px;
+}
